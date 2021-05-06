@@ -1,0 +1,185 @@
+html{
+font-size: 15px;
+font-weight: 300;
+}
+
+body {
+ width: 90vw;
+margin: 0 auto;
+padding: 40px;
+background-image: url("https://image.freepik.com/free-vector/dark-abstract-seamless-geometric-pattern-realistic-cubes-from-black-paper-template-wallpapers-textile-fabric-wrapping-paper-backgrounds-texture-with-volume-extrude-effect_278395-40.jpg");
+}  
+    
+.guess{
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Staatliches', cursive;
+font-size: 50px;
+
+}
+
+
+
+main 
+ {
+text-align: center;
+border: 10px #fffbdf solid;
+border-radius: 30px;
+border-color: #000000;
+min-height: 30vh;
+padding: 50px;
+ background-image: url("https://image.freepik.com/free-photo/grey-paper-texture_1253-25.jpg");
+ font-family: 'Abril Fatface', cursive;
+background-size: auto; 
+opacity: 0.8;
+}
+
+ h2
+ {
+font-size: 2.9rem;
+margin: 8rem 0;
+ }
+    
+p 
+{
+font-size: 1.81em;
+}
+    
+.button-wrapper
+{
+display:flex;
+flex-direction: column;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    padding: 2rem;
+    background: 1rem 1rem 0 0;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+
+}
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  
+  color: white;
+}
+
+.easy{
+    background-color:#4b778d;
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Staatliches', cursive;
+}
+.hard{
+    background-color:#f8a488;
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Staatliches', cursive;
+}
+
+ 
+h3{
+font-size: 2rem;
+
+}
+
+input{
+    border: 1px solid violet;
+    background: transparent;
+    margin: 2rem 0;
+    padding: 1rem 0;
+    width: 15rem;
+    text-align: center;
+}
+
+#range{
+    display: flex;
+    background: chartreuse;
+    height: 50px;
+    padding: 0;
+    margin: 0 0 4rem 0;
+}
+
+#rangeOutput{
+    font-size: 1.6rem;
+}
+
+.stats{
+    text-align: left;
+}
+
+.info{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.info span{
+font-size: 1.6rem;
+
+}
+
+#newGameButton{
+border-radius: 0;
+background-color: #fa9905;
+font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Staatliches', cursive;
+ border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+@media (min-width: 800px)
+{
+body{
+    width: 60vw;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flash{
+animation: flash 1s infinite ;
+}
+
+@keyframes flash{
+0% {
+opacity: 1;
+}
+50%{
+    opacity: 0.5;
+}
+100% {
+    opacity: 1;
+    }
+
+
+}
+
+
+
